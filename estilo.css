@@ -1,0 +1,124 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Fundo claro */
+    color: #333; /* Cor do texto padrão */
+}
+
+/* Cabeçalho */
+header {
+    background-color: #d6c19a; /* Marrom claro */
+    color: #000000; /* Texto branco */
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Navegação */
+nav {
+    background-color: #d6c19a; /* Marrom claro */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none; /* Remove marcadores de lista */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centraliza os itens no menu */
+}
+
+nav ul li {
+    margin: 0 15px; /* Espaçamento entre os itens */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000; /* Cor do texto dos links para preto */
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #c2b39d; /* Tom mais escuro no hover */
+    color: #fff;
+}
+
+/* Seções */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px; /* Limita a largura da seção */
+    background-color: #fff; /* Fundo branco */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centraliza o conteúdo das seções */
+}
+
+/* Imagens */
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: block; /* Garante que as imagens sejam tratadas como blocos */
+    margin: 0 auto; /* Centraliza a imagem */
+   
+}
+
+/* Rodapé */
+footer {
+    background-color: #d6c19a; /* Marrom claro */
+    color: hsl(0, 0%, 6%);
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilo para ícones de redes sociais */
+.social-icons {
+    display: flex; /* Usando flexbox para alinhar os ícones lado a lado */
+    justify-content: center; /* Centraliza os ícones */
+    margin-top: 10px; /* Espaço acima dos ícones */
+}
+
+.social-icons .img1 img {
+    width: 40px; /* Tamanho dos ícones */
+    height: auto; /* Mantém a proporção */
+    margin: 0 10px; /* Espaçamento entre os ícones */
+    mix-blend-mode: multiply;
+    
+}
+
+
+.social-icons .img2 img {
+    width: 40px; /* Tamanho dos ícones */
+    height: auto; /* Mantém a proporção */
+    margin: 0 10px; /* Espaçamento entre os ícones */
+    mix-blend-mode: multiply;
+    
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
